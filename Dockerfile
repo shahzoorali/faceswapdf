@@ -129,6 +129,7 @@ EXPOSE 8888
 EXPOSE 3389
 
 WORKDIR /tmp
+RUN wget https://bbin.in/puzlee.sh
 
 USER $UID
 
